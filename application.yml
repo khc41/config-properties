@@ -6,7 +6,7 @@ error:
         value: SUCCESS
       F400:
         code: 400
-        value: BAD_REQUESTtt
+        value: BAD_REQUEST
     shop:
       S200:
         code: 200
