@@ -1,16 +1,13 @@
 error:
   codemap:
     common:
-      S200:
-        code: 20012
-        value: SUCCESS
-      F400:
-        code: 400
-        value: BAD_REQUEST
-    shop:
-      S200:
-        code: 200
-        value: SUCCESS
-      S500:
+      C401:
+        code: 401
+        value: LOGIN ERROR
+      C500:
         code: 500
-        value: INTERNAL_SERVER_ERROR
+        value: INTERNAL SERVER ERROR
+    shop:
+      S400:
+        code: 400
+        value: 상품등록 실패
