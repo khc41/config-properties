@@ -14,3 +14,7 @@ error:
       S500:
         code: 500
         value: INTERNAL_SERVER_ERROR
+      S700:
+        code: 700
+        value: NOT_FOUND
+
